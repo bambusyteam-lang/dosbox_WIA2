@@ -11,7 +11,7 @@ mov DL, 'C'
 int 21h
 
 ; ; 2. Wypisanie znaku z kolorem
-; mov AH, 09h     ; Funkcja BIOS: zapisz znak i atrybut w pozycji kursora
+; mov AH, 09h     ; wypisanie znaku i atrybutu
 ; mov AL, 'C'     ; Znak do wyświetlenia
 ; mov BH, 00h     ; Strona wideo
 ; mov BL, 02h     ; ATRYBUT: 0 = tło czarne, 2 = tekst zielony
