@@ -1,0 +1,5 @@
+org 100h
+
+
+mov AH, 00h
+int 21h
